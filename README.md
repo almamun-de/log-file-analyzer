@@ -24,3 +24,8 @@ If you have a log file named access.log and want to find all instances of "404" 
 Run the script:
 python3 log_file_analyzer.py
 
+When prompted, enter:
+Log file path: access.log
+Search pattern: 404
+Output file path: 404_errors.txt
+The script will output the number of matching entries and save them to 404_errors.txt.

@@ -26,4 +26,3 @@ if __name__ == "__main__":
     pattern = input("Enter the pattern to search for (e.g., ERROR, 404, etc.): ")
     output_file_path = input("Enter the path for the output file: ")
 
-    analyze_log_file(log_file_path, pattern, output_file_path)
